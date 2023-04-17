@@ -86,7 +86,7 @@ var definePinchZoom = function () {
      */
     var PinchZoom = function (el, options) {
             this.el = el;
-            this.zoomFactor = 1;
+            this.zoomFactor = this.options.zoomFactor ? this.options.zoomFactor : 1;
             this.lastScale = 1;
             this.offset = {
                 x: 0,
