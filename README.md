@@ -27,6 +27,7 @@ let pz = new PinchZoom(el, options);
 
 ```Text
 
+zoomFactor:         Initial zoom factor after initialization of component.        
 tapZoomFactor:      Zoom factor that a double tap zooms to. (default 2)
 zoomOutFactor:      Resizes to original size when zoom factor is below this value. (default 1.3)
 animationDuration:  Animation duration in milliseconds. (default 300)
